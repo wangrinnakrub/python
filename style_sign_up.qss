@@ -1,0 +1,145 @@
+/* Style for basketball score sheet project */
+
+/* --- Login page --- */
+
+*{
+    background-color:  #f3f3f3;
+    /* background-color:  black; */
+}
+
+QPushButton#back_to_sign_in{
+
+    background-color: transparent;
+    border:none;
+    border-radius: 20px;
+
+}
+
+QPushButton#back_to_sign_in:hover{
+
+    background-color: rgb(226, 226, 226);
+    border:none;
+    border-radius: 20px;
+}
+
+/* sign up label */
+#sign_up_label {
+
+    /* padding-top: 60px; */
+    color: #2a2a2a;
+    /* background-color: cadetblue; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: TeX Gyre Adventor;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#phone_number_label,#password_label,#email_label,#fullname_label{
+
+    padding-left: 20px;
+    /* padding-top: 40px; */
+    color: rgb(118, 118, 118);
+    /* background-color: aquamarine; */
+    font-family: TeX Gyre Adventor;
+    font-weight: 620;
+
+}
+
+
+
+
+/* QLineEdit ทั่วไป */
+QLineEdit#fullname_input_box,QLineEdit#name_input_box, QLineEdit#password_input_box, QLineEdit#phone_number_input_box,QLineEdit#email_input_box{
+
+    padding-left: 25px;
+    /* padding-right: 100px; */
+    color: #767676;
+    background-color: transparent;
+    border-top: transparent;
+    border-bottom: 2px solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #dfdfdf;
+    font-family: TeX Gyre Adventor;
+    font-weight: 620;
+
+}
+
+QLineEdit#fullname_input_box{
+
+    color: #767676;
+    background-color: transparent;
+    border-top: transparent;
+    border-bottom: 2px solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #dfdfdf;
+    font-family: TeX Gyre Adventor;
+    font-weight: 620;
+
+}
+
+
+QLineEdit#fullname_input_box:hover,QLineEdit#name_input_box:hover, QLineEdit#password_input_box:hover, QLineEdit#phone_number_input_box:hover,QLineEdit#email_input_box:hover,QlineEdit#fullname_input_box:focus:hover,QlineEdit#name_input_box:focus:hover, QLineEdit#password_input_box:focus:hover, QLineEdit#phone_number_input_box:focus:hover,QLineEdit#email_input_box:focus:hover  {
+
+    padding-left: 25px;
+    /* color: #ff0000; */
+    background-color: transparent;
+    border-top: transparent;
+    border-bottom: 2px solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #ff56c7 !important;
+    font-family: TeX Gyre Adventor;
+    font-weight: 620;
+
+}
+
+QLineEdit#fullname_input_box:focus,QLineEdit#name_input_box:focus,  QLineEdit#password_input_box:focus, QLineEdit#phone_number_input_box:focus,QLineEdit#email_input_box:focus {
+
+    border-color: #56c1ff;
+
+}
+
+/* Placeholder */
+QLineEdit#fullname_input_box::placeholder, QLineEdit#name_input_box::placeholder,#password_input_box::placeholder, QLineEdit#phone_number_input_box::placeholder,QLineEdit#email_input_box::placeholder {
+
+    padding-left: 25px;
+    color: #dedede;
+    background-color: transparent;
+    border-top: transparent;
+    border-bottom: 2px solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #dfdfdf;
+    font-family: TeX Gyre Adventor;
+    font-weight: 620;
+
+}
+
+
+#fullname_error_label,#name_error_label,#password_error_label,#phone_number_error_label,#email_error_label {
+
+    color: rgb(255, 67, 67);
+    /* background-color: burlywood; */
+
+}
+
+/* login button */
+QPushButton#next_button{
+
+    border-radius: 18px;
+    color: aliceblue;
+    background-color: #2a2a2a;
+    font-family: TeX Gyre Adventor;
+    font-size: 12px;
+    font-weight: 900;
+
+}
+
+QPushButton#next_button:hover{
+    color: #000000;
+    /* background-color: #56c1ff; */
+    background-color: #ffffff;
+}
